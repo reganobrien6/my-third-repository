@@ -1,0 +1,187 @@
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .button a {
+    text-decoration: none;
+    color: white;
+  }
+  .button {
+    display: inline-block;
+    background-color: #073511; /* green color */
+    border: none;
+    border-radius: 100%;
+    color: #fff; /* Text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: none; /* Remove drop shadow */
+    transition: background-color 0.3s ease-in-out;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+  }
+  .button:hover {
+    background-color: #1ab33b; /* lighter green on hover */
+    cursor:pointer;
+  }
+  .header {
+    height: 500px;
+    background-image: url("../images/ReganThinker2.jpg");
+    background-position: 0px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+  }
+  .rightNav{
+    margin-left: auto;
+  }
+  .headerWords {
+    background-color: rgba(255 , 255, 255, 0.4);
+    padding: 10px;
+    width: 310px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    text-align: right;
+  }
+  
+  /* -------------Header Nav Bar ----------------*/
+  .navigationHeader {
+    position: fixed;
+    padding-block: 15px;
+    width: 100%;
+    background-color: #031907;
+    height: 30px;
+    overflow: hidden;
+    z-index: 4;
+  }
+   .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navButtons {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-right: 25px;
+    padding-left: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  nav a:hover {
+    color: #1ab33b; /* lighter green on hover */
+    cursor:pointer;
+  }
+  .navMargin {
+    margin-bottom: 10px !important;
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /*--Smaller Hero Image on every other page besides home */
+  .aboutMeHeader{
+    height: 250px;
+    background-image: url("../images/ReganThinker2.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: -30px 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+  }
+  /*------Work------- */
+  .caseStudyWordSquare {
+    height: 300px;
+    width: 350px;
+    border: 1px solid black;
+    padding:25px;
+    border-radius: 12%;
+    background-color:lightgray;
+  }
+  
+  .caseStudyAndImage {
+    border: 1px solid black;
+    padding: 20px;
+    display:flex;
+    background-color: #031907;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .sampleGeniusImage {
+    height: 250px;
+    width: 300px;
+    padding:25px
+  }
+  .navButtons {
+    justify-content: center;
+  }
+  /*---About Me---- */
+  .storyboardSquare {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    padding:25px;
+  }
+  .storyboard {
+    display: grid;
+    grid-template-areas: "1 2 3" "4 5 6";
+  }
+  
+  .spacer{
+    height: 30px;
+  }
+  /*---Footer--- */
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-top: 50px;
+  }
+  .footerLink {
+    padding:7px;
+  }
+  
+  /* ------------Makeup and Painging Page ----------*/
+  .makeupPictures img {
+height: 200px;
+}
+
+.paintingPictures img {
+height:200px
+}
+.mpParagraph {
+  margin: auto;
+  margin-left: 30px;
+  padding: 10px;
+}
+.makeupPictures {
+  display: grid;
+  grid-template-areas: "1 2 3 4" "5 6 7 8" "9 10 11 12";
+  margin-left: 30px;
+}
+.paintingPictures {
+  display: grid;
+  grid-template-areas: "1 2 3" "4 5 6" "7 8 9" "10";
+  grid-template-columns: 3fr 3fr 3fr;
+  margin-left: 30px;
+}
